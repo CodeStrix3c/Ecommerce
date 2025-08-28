@@ -10,7 +10,7 @@ public partial class BlogSettings : ISettings
     /// <summary>
     /// Gets or sets a value indicating whether blog is enabled
     /// </summary>
-    public bool Enabled { get; set; }
+    public bool Enabled { get; set; } = true;
 
     /// <summary>
     /// Gets or sets the page size for posts
